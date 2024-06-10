@@ -606,10 +606,13 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
+  z-index: 999;
   top: 0;
+  left: 0;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms ease-in-out;
 }
 
 .is-open {
