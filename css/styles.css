@@ -555,6 +555,14 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-form-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-label {
+}
+
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -563,38 +571,41 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 0 16px;
-}
-
-.footer-input::placeholder {
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.footer-input::placeholder {
   color: #fff;
 }
 
 .footer-form-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   gap: 16px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   fill: #f4f4fd;
   border: none;
 }
 
 .footer-form-btn-svg {
+  margin-left: 16px;
 }
 
 .footer-form-btn-use {
@@ -715,12 +726,16 @@ img {
   fill: none;
 }
 
+.modal-icon-svg {
+  fill: #2e2f42;
+}
+
 .modal-input:focus {
   border-color: #4d5ae5;
 }
 
-.modal-icon-svg {
-  fill: #2e2f42;
+.modal-field input:focus + svg .modal-icon-svg {
+  fill: #4d5ae5;
 }
 
 .modal-field input:active {
@@ -729,6 +744,10 @@ img {
 
 .modal-field input:active + svg .modal-icon-svg {
   fill: #4d5ae5;
+}
+
+.modal-field-text {
+  margin-bottom: 16px;
 }
 
 .modal-field-wrap {
@@ -795,7 +814,7 @@ textarea::placeholder {
   align-items: center;
 }
 
-.modal-check-text span {
+.modal-check-span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
