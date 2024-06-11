@@ -700,7 +700,6 @@ img {
 }
 
 .modal-label {
-  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -734,7 +733,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-field input:focus + svg .modal-icon-svg {
+.modal-input:focus + svg .modal-icon-svg {
   fill: #4d5ae5;
 }
 
