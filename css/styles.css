@@ -508,6 +508,7 @@ img {
   align-items: flex-start;
   justify-content: center;
   align-content: flex-start;
+  margin-right: 80px;
 }
 
 .link-icon-footer {
@@ -540,6 +541,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  display: inline-block;
   gap: 24px;
 }
 
