@@ -742,6 +742,10 @@ img {
   border: 1px solid #4d5ae5;
 }
 
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+
 .modal-field input:active + svg .modal-icon-svg {
   fill: #4d5ae5;
 }
@@ -810,8 +814,6 @@ textarea::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
 }
 
 .modal-check-span {
