@@ -600,7 +600,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   background-color: #4d5ae5;
   fill: #f4f4fd;
   border: none;
